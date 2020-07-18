@@ -6,9 +6,9 @@ public class Swap1 {
 	static int a;
 	static int b;
 	static int c;	
+	@SuppressWarnings("resource")
 	public static void main(String[] args) 
 	{
-		@SuppressWarnings("resource")
 		Scanner obj=new Scanner(System.in);
 		System.out.println("Enter the Value of a");
 		a=obj.nextInt();
